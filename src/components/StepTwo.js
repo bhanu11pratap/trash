@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 export default function StepTwo() {
-  const [address, setAddress] = useState(null);
-  const [eth, setEth] = useState(10000);
-  const [instaFee, setInstaFee] = useState(10000);
-  const [networkFee, setNetworkFee] = useState(10);
-  const [totalAmount, setTotalAmount] = useState(11000);
+  const [address] = useState(null);
+  const [eth] = useState(10000);
+  const [instaFee] = useState(10000);
+  const [networkFee] = useState(10);
+  const [totalAmount] = useState(11000);
 
   return (
     <div className="container">
