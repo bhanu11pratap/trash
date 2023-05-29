@@ -5,8 +5,8 @@ import "./App.css";
 export default function StepOne() {
   const [amount, setAmount] = useState(40000);
   const [estimate, setEstimate] = useState(2);
-  const [price, setprice] = useState(20000);
-  const [totalFee, setTotalFee] = useState(500);
+  const [price] = useState(20000);
+  const [totalFee] = useState(500);
 
   return (
     <div className="container">
